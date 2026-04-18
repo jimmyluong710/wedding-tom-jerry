@@ -191,6 +191,60 @@ h1, h2, h3, .cursive {
     background: var(--accent-brown);
 }
 
+/* Gift Section */
+.gift-section {
+    padding: 100px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.gift-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.gift-card {
+    background: var(--bg-light);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    width: 320px;
+    border: 1px solid var(--secondary-gold);
+    transition: transform 0.3s ease;
+}
+
+.gift-card:hover {
+    transform: translateY(-10px);
+}
+
+.gift-card i {
+    font-size: 2rem;
+    color: var(--primary-red);
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.gift-card h3 {
+    margin-bottom: 15px;
+    color: var(--primary-red);
+}
+
+.gift-card p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
 /* Animations */
 @keyframes fadeInDown {
     from { opacity: 0; transform: translateY(-50px); }
