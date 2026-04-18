@@ -102,23 +102,23 @@
 
     <!-- RSVP Section -->
     <section class="invitation" id="rsvp">
-        <div class="invitation-card" style="border-style: dashed;">
-            <h2 style="color: var(--primary-red); margin-bottom: 20px;">XÁC NHẬN THAM DỰ</h2>
+        <div class="invitation-card rsvp-card">
+            <h2>XÁC NHẬN THAM DỰ</h2>
             <p>Sự hiện diện của quý vị là niềm vinh hạnh của chúng tôi</p>
-            <form style="margin-top: 30px; text-align: left; max-width: 500px; margin-left: auto; margin-right: auto;">
-                <div style="margin-bottom: 15px;">
+            <form class="rsvp-form">
+                <div class="form-group">
                     <label>Tên của bạn:</label>
-                    <input type="text" placeholder="Nhập tên..." style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; margin-top: 5px;">
+                    <input type="text" placeholder="Nhập tên..." required>
                 </div>
-                <div style="margin-bottom: 15px;">
+                <div class="form-group">
                     <label>Số người tham dự:</label>
-                    <select style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; margin-top: 5px;">
+                    <select>
                         <option>1 người</option>
                         <option>2 người</option>
                         <option>Cả gia đình</option>
                     </select>
                 </div>
-                <button type="submit" class="btn" style="width: 100%; cursor: pointer; border: none;">GỬI XÁC NHẬN</button>
+                <button type="submit" class="btn submit-btn">GỬI XÁC NHẬN</button>
             </form>
         </div>
     </section>
