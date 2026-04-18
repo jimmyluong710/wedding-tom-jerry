@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đám Cưới Tom & Jerry - Trình Duyệt Mời Cưới</title>
+    <meta name="description" content="Trang web mời cưới chính thức của Tom và Jerry. Hãy cùng chung vui với chúng tôi!">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700&family=Pattaya&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <p>SAVE THE DATE</p>
+        <h1>Tom & Jerry</h1>
+        <p>15 . 05 . 2026</p>
+        <div style="margin-top: 50px;">
+            <a href="#invitation" class="btn">XEM LỜI MỜI</a>
+        </div>
+    </section>
+
+    <!-- Invitation Section -->
+    <section class="invitation" id="invitation">
+        <div class="invitation-card">
+            <div class="parents">
+                <div class="family">
+                    <h3>NHÀ TRAI</h3>
+                    <p>Ông: <strong>Nguyễn Văn Bắp</strong></p>
+                    <p>Bà: <strong>Trần Thị Sen</strong></p>
+                    <p>Huyện Meo Meo, TP. Hoạt Hình</p>
+                </div>
+                <div class="family">
+                    <h3>NHÀ GÁI</h3>
+                    <p>Ông: <strong>Lê Văn Gạo</strong></p>
+                    <p>Bà: <strong>Phạm Thị Phô Mai</strong></p>
+                    <p>Quận Chít Chít, TP. Hoạt Hình</p>
+                </div>
+            </div>
+
+            <div class="txt-invite">
+                <p>Trân trọng kính mời quý quan khách đến dự buổi tiệc thành hôn của hai con chúng tôi</p>
+            </div>
+
+            <div class="couple-names">
+                <h2>Tom</h2>
+                <span>&</span>
+                <h2>Jerry</h2>
+            </div>
+
+            <div class="txt-invite">
+                <p>Hôn lễ được cử hành vào lúc <strong>09:00 AM</strong></p>
+                <p>Ngày 15 tháng 05 năm 2026</p>
+                <p>(Nhằm ngày 29 tháng 03 năm Bính Ngọ)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <h2>ALBUM ẢNH CƯỚI</h2>
+        <div class="grid">
+            <img src="wedding1.jpg" alt="Tom and Jerry Wedding 1">
+            <img src="wedding2.jpg" alt="Tom and Jerry Wedding 2">
+            <img src="wedding3.jpg" alt="Tom and Jerry Wedding 3">
+            <img src="wedding4.jpg" alt="Tom and Jerry Wedding 4">
+            <img src="wedding5.jpg" alt="Tom and Jerry Wedding 5">
+            <img src="wedding1.jpg" alt="Tom and Jerry Wedding 6" style="filter: hue-rotate(45deg);">
+        </div>
+    </section>
+
+    <!-- Details Section -->
+    <section class="details" id="details">
+        <h2>THÀNH PHẦN BUỔI TIỆC</h2>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+            <div class="info-box">
+                <i class="fas fa-church"></i>
+                <h3>LỄ THÀNH HÔN</h3>
+                <p>09:00 AM | 15.05.2026</p>
+                <p>Westminster Abbey</p>
+                <p>London, Vương Quốc Anh</p>
+            </div>
+            <div class="info-box">
+                <i class="fas fa-glass-cheers"></i>
+                <h3>TIỆC CƯỚI</h3>
+                <p>11:30 AM | 15.05.2026</p>
+                <p>Lâu đài Windsor</p>
+                <p>Berkshire, Vương Quốc Anh</p>
+            </div>
+        </div>
+        <a href="https://maps.google.com" target="_blank" class="btn"><i class="fas fa-map-marker-alt"></i> XEM BẢN ĐỒ</a>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="invitation" id="rsvp">
+        <div class="invitation-card" style="border-style: dashed;">
+            <h2 style="color: var(--primary-red); margin-bottom: 20px;">XÁC NHẬN THAM DỰ</h2>
+            <p>Sự hiện diện của quý vị là niềm vinh hạnh của chúng tôi</p>
+            <form style="margin-top: 30px; text-align: left; max-width: 500px; margin-left: auto; margin-right: auto;">
+                <div style="margin-bottom: 15px;">
+                    <label>Tên của bạn:</label>
+                    <input type="text" placeholder="Nhập tên..." style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; margin-top: 5px;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label>Số người tham dự:</label>
+                    <select style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; margin-top: 5px;">
+                        <option>1 người</option>
+                        <option>2 người</option>
+                        <option>Cả gia đình</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn" style="width: 100%; cursor: pointer; border: none;">GỬI XÁC NHẬN</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="padding: 50px; text-align: center; background: var(--text-dark); color: white;">
+        <p>Mừng hạnh phúc Tom & Jerry</p>
+        <p style="font-size: 0.8rem; margin-top: 10px; opacity: 0.7;">© 2026 Made with ❤️ for the happy couple</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
